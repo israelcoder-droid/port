@@ -121,6 +121,7 @@ a:hover{
 .img1{
   border-radius: 50%;
   justify-content: center;
+  margin: 0 auto;
 }
 
 section{
@@ -249,6 +250,9 @@ section{
 
 .about-pic{
   border-radius: 2rem;
+  margin-left: 20rem;
+  margin-top: 3rem;
+  display: flex;
 }
 
 .icon-arrow{
