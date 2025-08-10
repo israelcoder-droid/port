@@ -97,7 +97,6 @@ a:hover{
 }
 .menu-links{
   position: absolute;
-  /* top: 100%; */
   right: 15%;
   background-color: white;
   width: fit-content;
@@ -264,8 +263,6 @@ section{
 .about-details-container{
   justify-content: center;
   flex-direction: column;
-  /* margin-left: 20rem;
-  margin-top: -25px; */
 }
 
 .about-containers,
