@@ -4,12 +4,37 @@
 }
 body {
   font-family: "poppins", sans-serif;
+  background-color: rgb(245, 217, 217);
 }
 html {
   scroll-behavior: smooth;
 }
 p {
   color:rgb(85, 85, 85);
+}
+.section__text__p2{
+     overflow: hidden;
+     border-right: 0.15em solid orange;
+     white-space: nowrap;
+     font-size: 24px;
+     animation: typing 5s steps(40) infinite,
+     blink-caret 1s step-end infinite;
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+@keyframes blink-caret{
+  from,to {
+    border-right-color:transparent;
+  }
+  50%{
+    border-right-color: orange;
+  }
 }
 a,
 .btn{
