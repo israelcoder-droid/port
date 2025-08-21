@@ -411,4 +411,5 @@ footer p{
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
