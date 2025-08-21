@@ -6,9 +6,7 @@ body {
   font-family: "poppins", sans-serif;
   background-color: rgb(245, 217, 217);
 }
-html {
-  scroll-behavior: smooth;
-}
+
 p {
   color:rgb(85, 85, 85);
 }
